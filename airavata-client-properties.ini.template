@@ -2,10 +2,10 @@
 ;   Key properties specify location of Airavata Services, Ports and Such.
 
 ; Host which runs the Airavata Server
-AIRAVATA_SERVER = "tls://apiprod.scigap.org"
+AIRAVATA_SERVER = "tls://prod-airavata.scigap.org"
 ;AIRAVATA_SERVER = "tls://api.staging.scigap.org"
 
-AIRAVATA_PROFILE_SERVICE_SERVER = "apiprod.scigap.org"
+AIRAVATA_PROFILE_SERVICE_SERVER = "prod-airavata.scigap.org"
 AIRAVATA_PROFILE_SERVICE_PORT = 8962
 
 ; Airavata Server thrift port
@@ -66,6 +66,6 @@ USLIMS_PENN_STORAGE_ID = "h7-380489.huck.psu.edu_477d2678-58f6-4f8c-9802-ed52d1e
 OIDC_CLIENT_ID = "lims"
 OIDC_CLIENT_SECRET = "..."
 OIDC_USERNAME = "service-account-lims"
-OIDC_TOKEN_URL = "https://iam.scigap.org/auth/realms/ultrascan/protocol/openid-connect/token"
+OIDC_TOKEN_URL = "https://auth.scigap.org/auth/realms/ultrascan/protocol/openid-connect/token"
 ; (Optional) Relative path to CA certificate to use to verify OIDC token endpoint
 ;OIDC_CAFILE_PATH = "./incommon_rsa_server_ca.pem"
